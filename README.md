@@ -7,9 +7,9 @@
 bash <(curl -s -L https://git.io/v2ray.sh)
 ```
 # 快速管理
-v2ray info 查看 V2Ray 配置信息
-v2ray config 修改 V2Ray 配置
-v2ray link 生成 V2Ray 配置文件链接
+- v2ray info 查看 V2Ray 配置信息
+- v2ray config 修改 V2Ray 配置
+- v2ray link 生成 V2Ray 配置文件链接
 v2ray infolink 生成 V2Ray 配置信息链接
 v2ray qr 生成 V2Ray 配置二维码链接
 v2ray ss 修改 Shadowsocks 配置
