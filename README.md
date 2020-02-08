@@ -25,10 +25,11 @@ v2ray update.sh 更新 V2Ray 管理脚本
 v2ray uninstall 卸载 V2Ra
 
 # 配置文件路径
+```bash
 V2Ray 配置文件路径：/etc/v2ray/config.json
 Caddy 配置文件路径：/etc/caddy/Caddyfile
 脚本配置文件路径: /etc/v2ray/233blog_v2ray_backup.conf
-
+```
 # WS+TLS / HTTP2
 如果你使用了这两个协议，那么就会使用了脚本自带的 Caddy 集成
 不管如何，不建议直接去更改 Caddy 的配置：/etc/caddy/Caddyfile
