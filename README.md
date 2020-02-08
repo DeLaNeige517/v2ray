@@ -24,13 +24,13 @@ bash <(curl -s -L https://git.io/v2ray.sh)
 - v2ray update.sh 更新 V2Ray 管理脚本
 - v2ray uninstall 卸载 V2Ra
 
-# 配置文件路径
+## 配置文件路径
 ```bash
 V2Ray 配置文件路径：/etc/v2ray/config.json
 Caddy 配置文件路径：/etc/caddy/Caddyfile
 脚本配置文件路径: /etc/v2ray/233blog_v2ray_backup.conf
 ```
-# WS+TLS / HTTP2
+## WS+TLS / HTTP2
 如果你使用了这两个协议，那么就会使用了脚本自带的 Caddy 集成
 不管如何，不建议直接去更改 Caddy 的配置：/etc/caddy/Caddyfile
 如果你需要配置其他网站相关，请将网站的配置文件放到 /etc/caddy/sites 目录下，然后重启 Caddy 进程即可，脚本默认生成的 Caddy 的配置会加载 /etc/caddy/sites 这个目录下的所有配置文件。
@@ -39,7 +39,7 @@ Caddy 配置文件路径：/etc/caddy/Caddyfile
 ```bash
 service caddy restart
 ```
-# Caddy 插件相关
+## Caddy 插件相关
 
 本脚本集成了 Caddy，但不集成任何 Caddy 插件，如果你需要安装某些 Caddy 插件，你可以使用官方的 Caddy 安装脚本来一键安装。
 本人的脚本集成的 Caddy 的安装路径，跟 Caddy 官方的安装脚本是一致的。所以可以直接安装，不会有任何问题
@@ -48,7 +48,7 @@ service caddy restart
 ```bash
 curl https://getcaddy.com | bash -s personal http.filebrowser
 ```
-# 备份
+## 备份
 为了避免由于不可抗拒的原因所造成本人主动删除脚本，所以建议请将本脚本 Fork 一份
 备份地址： https://github.com/233boy/v2ray/fork
 安装方法，确保你已经 Fork 了脚本，将 233boy 修改成你的 Github 用户名
