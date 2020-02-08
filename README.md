@@ -1,4 +1,4 @@
-# v2ray
+## v2ray
 最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
 
 使用 root 用户输入下面命令安装或卸载
@@ -6,7 +6,7 @@
 ```bash
 bash <(curl -s -L https://git.io/v2ray.sh)
 ```
-# 快速管理
+## 快速管理
 - v2ray info 查看 V2Ray 配置信息
 - v2ray config 修改 V2Ray 配置
 - v2ray link 生成 V2Ray 配置文件链接
