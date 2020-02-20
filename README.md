@@ -1,4 +1,4 @@
-###### v2ray
+#### v2ray
 最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
 
 使用 root 用户输入下面命令安装或卸载
@@ -6,7 +6,7 @@
 ```bash
 bash <(curl -s -L https://git.io/v2ray.sh)
 ```
-###### 快速管理
+##### 快速管理
 - v2ray url 可生成 vmess URL
 - v2ray info 查看 V2Ray 配置信息
 - v2ray config 修改 V2Ray 配置
@@ -31,7 +31,7 @@ V2Ray 配置文件路径：/etc/v2ray/config.json
 Caddy 配置文件路径：/etc/caddy/Caddyfile
 脚本配置文件路径: /etc/v2ray/233blog_v2ray_backup.conf
 ```
-###### WS+TLS / HTTP2
+##### WS+TLS / HTTP2
 如果你使用了这两个协议，那么就会使用了脚本自带的 Caddy 集成
 不管如何，不建议直接去更改 Caddy 的配置：/etc/caddy/Caddyfile
 如果你需要配置其他网站相关，请将网站的配置文件放到 /etc/caddy/sites 目录下，然后重启 Caddy 进程即可，脚本默认生成的 Caddy 的配置会加载 /etc/caddy/sites 这个目录下的所有配置文件。
