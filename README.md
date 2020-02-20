@@ -1,4 +1,4 @@
-######## v2ray
+###### v2ray
 最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
 
 使用 root 用户输入下面命令安装或卸载
@@ -40,7 +40,7 @@ Caddy 配置文件路径：/etc/caddy/Caddyfile
 ```bash
 service caddy restart
 ```
-#### ##Caddy 插件相关
+##### Caddy 插件相关
 
 本脚本集成了 Caddy，但不集成任何 Caddy 插件，如果你需要安装某些 Caddy 插件，你可以使用官方的 Caddy 安装脚本来一键安装。
 本人的脚本集成的 Caddy 的安装路径，跟 Caddy 官方的安装脚本是一致的。所以可以直接安装，不会有任何问题
